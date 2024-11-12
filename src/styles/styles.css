@@ -67,10 +67,10 @@ body {
 
 .product-image {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    /* position:relative; */
-    object-fit: contain; 
+    /* position:relative; 
+    object-fit: contain; */
 
 }
 
@@ -81,6 +81,7 @@ body {
     align-items: flex-start ;
     flex-wrap: nowrap;
     padding: 1em;
+    max-height:500px;
 }
 
 .products-grid{
